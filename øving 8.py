@@ -3,6 +3,7 @@ import io
 myDictIsVeryAverage = {}
 c = 0
 
+
 with io.open("oving_8_rein_tekst.txt", "r", encoding="utf-8") as file: 
     lines = file.readlines()
     for row in lines:
